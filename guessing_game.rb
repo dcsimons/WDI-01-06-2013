@@ -1,7 +1,7 @@
 # file path: DSimons/WDI/01 06 2013/guessing_game.rb
 
 # Program creates a random number and then iterates on a user guessing for that number
-num = rand(100)
+num = rand(1..100)
 
 guess_count = 1
 
